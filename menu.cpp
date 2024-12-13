@@ -7,7 +7,7 @@ int n; //untuk jumlah data
 
 void dMenu(){
 system("cls");
-cout<<"Aplikasi by Tiara"<<"\n";       
+cout<<"Aplikasi Sorting by Tiara"<<"\n";       
 cout<<"1. Masukkan Data"<<"\n";            
 cout<<"2. Tampilkan Data"<<"\n";            
 cout<<"3. Sorting asc"<<"\n";           
