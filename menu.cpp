@@ -2,6 +2,8 @@
 #include <conio.h>
 using namespace std;
 
+int data[100];
+int n; //untuk jumlah data
 
 void dMenu(){
 system("cls");
@@ -21,6 +23,11 @@ cout<<"hallo saya menu "<<pesan;
 getch();
 }
 
+void tukar(int *a, int *b){
+  int t=*a;
+  *a=*b;
+  *b=t;
+}
 
 int main() {
 char pl;
