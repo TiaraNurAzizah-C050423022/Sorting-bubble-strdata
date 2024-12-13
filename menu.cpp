@@ -17,11 +17,6 @@ cout<<"Masukan angka :";
 
 }
 
-void mPertama(string pesan){
-system("cls");
-cout<<"hallo saya menu "<<pesan;
-getch();
-}
 
 void tukar(int *a, int *b){
   int t=*a;
